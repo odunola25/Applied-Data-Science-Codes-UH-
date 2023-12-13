@@ -262,6 +262,8 @@ for indicator in selected_indicators:
     # Add labels and title
     plt.xlabel('Year', fontsize=20)
     plt.ylabel('Values', fontsize=20)
+    plt.xticks(fontsize=20)
+    plt.yticks(fontsize=20)
     plt.legend(fontsize=15)
     plt.title(
         f"Trend of {indicator} for {', '.join(selected_countries)} over the years",
